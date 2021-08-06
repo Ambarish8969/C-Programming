@@ -10,4 +10,5 @@ int main()
   else{
     printf("%d id an Odd number.\n", a);
   }
+  return 0;
 }
