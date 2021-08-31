@@ -7,5 +7,4 @@ int main()
   printf("%f\n",floor(1.66));
   printf("%f\n",round(1.66));
   return 0;
-  sd
 }
