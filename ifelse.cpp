@@ -1,5 +1,5 @@
 //Which is biggest number in three given number......
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
