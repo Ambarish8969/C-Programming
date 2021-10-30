@@ -1,3 +1,4 @@
+// Palindrome Numbers.
 #include<iostream>
 using namespace std;
 int main()
@@ -18,4 +19,23 @@ int main()
         cout<<"Given Number is not Palindrome.";
     }
     
+}
+
+// Palindrome Strings.
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int main()
+{   
+    string str;
+    cout<<"Enter a String : ";
+    cin>>str;
+    // Reversing string.
+    string name=str;
+    reverse(name.begin(), name.end());
+    if(str==name){
+        cout<<"Given string is Palindrome";
+    }else{
+        cout<<"Given string is not Palindrome";
+    }
 }
