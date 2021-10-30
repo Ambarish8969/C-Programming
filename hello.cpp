@@ -9,8 +9,9 @@ using namespace std;
 // main function -
 // where the execution of program begins
 int main()
-{
+{   int n;
     // prints hello world
+    std::cin >> n;
     cout<<"Hello World"<<"\n";
     std::cout << "Hii Ambi." << '\n';
 
