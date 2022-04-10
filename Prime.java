@@ -20,15 +20,18 @@ public class arrays {
         return null;
     }
     public static void main(String[] args) {
-        int a = 4;
-        int b = 16;
-        
-        if(isPrime(a)=="true" && isPrime(b)=="true"){
-            System.out.println(Math.min(a, b));
-        }else if(isPrime(a)=="true" || isPrime(b)=="true"){
-            System.out.println(Math.max(a, b));
+        int a = 5;
+        int b = 6;
+        if(a==b){
+            System.out.println("Invalid Input or Numbers should be different.");
         }else{
-            System.out.println("Both are not Prime Numbers.");
+            if(isPrime(a)=="true" && isPrime(b)=="true"){
+                System.out.println(Math.min(a, b));
+            }else if(isPrime(a)=="true" || isPrime(b)=="true"){
+                System.out.println(Math.max(a, b));
+            }else{
+                System.out.println("Both are not Prime Numbers.");
+            }
         }
     }
 }
