@@ -27,10 +27,8 @@ public class arrays {
         }else{
             if(isPrime(a)=="true" && isPrime(b)=="true"){
                 System.out.println(Math.min(a, b));
-            }else if(isPrime(a)=="true" || isPrime(b)=="true"){
+            }else if((isPrime(a)=="true" && isPrime(b)=="false") || (isPrime(a)=="false" && isPrime(b)=="false") || (isPrime(a)=="false" && isPrime(b)=="true")){
                 System.out.println(Math.max(a, b));
-            }else{
-                System.out.println("Both are not Prime Numbers.");
             }
         }
     }
